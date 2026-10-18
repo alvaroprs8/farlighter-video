@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b141b">
-  <meta name="description" content="Veja o passo a passo, as animações e os resultados dos testes do Farlighter AI Kit.">
+  <meta name="description" content="Vídeo real do personagem caminhando, atacando e abrindo o inventário em uma execução própria do kit.">
   <title>Farlighter · Vídeo do projeto</title>
   <style>
     * { box-sizing: border-box; }
@@ -13,7 +13,7 @@
     .brand { color: #85dfcd; font-size: 13px; font-weight: 700; letter-spacing: .2em; }
     h1 { font-size: clamp(25px, 5vw, 38px); line-height: 1.2; margin-bottom: 12px; }
     p { color: #b6c6d0; line-height: 1.6; }
-    video { display: block; width: 100%; height: auto; aspect-ratio: 1280 / 840; background: #000; border-radius: 12px; margin-top: 24px; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 1280 / 800; background: #000; border-radius: 12px; margin-top: 24px; }
     .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
     a { display: inline-block; padding: 14px 20px; background: #85dfcd; border-radius: 8px; color: #0b141b; font-weight: 650; text-decoration: none; }
     a.secondary { background: #20303b; color: #edf5f7; }
@@ -25,18 +25,20 @@
 <body>
   <main>
     <p class="brand">FARLIGHTER AI KIT</p>
-    <h1>O processo, passo a passo.</h1>
-    <p>Toque no vídeo para assistir. Animações, efeitos e resultados reais dos testes.</p>
-    <video controls playsinline preload="metadata" poster="preview.jpg" aria-label="Vídeo do processo e dos testes do Farlighter AI Kit">
-      <source src="Farlighter-passo-a-passo.mp4" type="video/mp4">
+    <h1>O jogo funcionando na pasta própria.</h1>
+    <p>Gravação real: caminhada pelo cenário, ataque com espada e inventário. Toque para assistir pelo celular.</p>
+    <video controls playsinline preload="metadata" poster="gameplay-preview.jpg" aria-label="Demonstração real de caminhada, ataque e inventário">
+      <source src="Farlighter-jogo-independente.mp4" type="video/mp4">
       Seu navegador não reproduziu o vídeo. Use o botão abaixo para abrir o arquivo.
     </video>
     <div class="actions">
-      <a href="Farlighter-passo-a-passo.mp4">Abrir vídeo diretamente</a>
-      <a class="secondary" href="Farlighter-passo-a-passo.mp4" download>Baixar vídeo</a>
+      <a href="Farlighter-jogo-independente.mp4">Abrir vídeo diretamente</a>
+      <a class="secondary" href="Farlighter-jogo-independente.mp4" download>Baixar vídeo</a>
     </div>
-    <p class="note">1min34s · Texto em português · Sem áudio · Aproximadamente 3 MB</p>
-    <p class="note">Gravação de 18/10/2026. Os módulos são demonstrados separadamente; a partida completa ainda está em desenvolvimento.</p>
+    <p class="note">16 segundos · Sem áudio · 3,4 MB · Gravação de 18/10/2026</p>
+    <p>Esta execução usa os arquivos reunidos no próprio kit, sem abrir Farever.exe ou carregar os pacotes da instalação. Ainda utiliza código e recursos extraídos do Farever.</p>
+    <p class="note">É uma demonstração inicial. A barra principal de vida e o minimapa ainda precisam de revisão. Não comprova um jogo completo, todas as batalhas ou funcionamento em um computador novo.</p>
+    <p><a class="secondary" href="Farlighter-passo-a-passo.mp4">Vídeo anterior: processo e ferramentas (1min34s)</a></p>
   </main>
 </body>
 </html>
