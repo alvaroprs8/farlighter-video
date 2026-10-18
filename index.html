@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b141b">
+  <meta name="description" content="Veja o passo a passo, as animações e os resultados dos testes do Farlighter AI Kit.">
+  <title>Farlighter · Vídeo do projeto</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #0b141b; color: #edf5f7; font-family: system-ui, sans-serif; }
+    main { width: min(100% - 32px, 960px); margin: 40px auto; }
+    .brand { color: #85dfcd; font-size: 13px; font-weight: 700; letter-spacing: .2em; }
+    h1 { font-size: clamp(25px, 5vw, 38px); line-height: 1.2; margin-bottom: 12px; }
+    p { color: #b6c6d0; line-height: 1.6; }
+    video { display: block; width: 100%; height: auto; aspect-ratio: 1280 / 840; background: #000; border-radius: 12px; margin-top: 24px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0; }
+    a { display: inline-block; padding: 14px 20px; background: #85dfcd; border-radius: 8px; color: #0b141b; font-weight: 650; text-decoration: none; }
+    a.secondary { background: #20303b; color: #edf5f7; }
+    a:focus-visible { outline: 3px solid white; outline-offset: 4px; }
+    .note { font-size: 14px; }
+    @media (max-width: 500px) { main { margin: 26px auto; } .actions a { width: 100%; text-align: center; } }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="brand">FARLIGHTER AI KIT</p>
+    <h1>O processo, passo a passo.</h1>
+    <p>Toque no vídeo para assistir. Animações, efeitos e resultados reais dos testes.</p>
+    <video controls playsinline preload="metadata" poster="preview.jpg" aria-label="Vídeo do processo e dos testes do Farlighter AI Kit">
+      <source src="Farlighter-passo-a-passo.mp4" type="video/mp4">
+      Seu navegador não reproduziu o vídeo. Use o botão abaixo para abrir o arquivo.
+    </video>
+    <div class="actions">
+      <a href="Farlighter-passo-a-passo.mp4">Abrir vídeo diretamente</a>
+      <a class="secondary" href="Farlighter-passo-a-passo.mp4" download>Baixar vídeo</a>
+    </div>
+    <p class="note">1min34s · Texto em português · Sem áudio · Aproximadamente 3 MB</p>
+    <p class="note">Gravação de 18/10/2026. Os módulos são demonstrados separadamente; a partida completa ainda está em desenvolvimento.</p>
+  </main>
+</body>
+</html>
